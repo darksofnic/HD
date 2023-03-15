@@ -1,18 +1,23 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+*/node_modules
 /.pnp
 .pnp.js
+/api/.env
+<<<<<<< HEAD
+=======
+
+/api/.env
+api/.env
+.env
+>>>>>>> 69ace80371a90a6d854ecfcf59da577fb885bcb1
 
 # testing
 /coverage
 
 # production
 /build
-
-# editors
-.vscode
 
 # misc
 .DS_Store
